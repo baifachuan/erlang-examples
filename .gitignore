@@ -1,0 +1,5 @@
+*.dump
+*/*.dump
+rebar.lock
+ebin
+rebar3
