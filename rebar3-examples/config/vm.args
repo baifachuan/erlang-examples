@@ -1,6 +1,0 @@
--sname rebar3-examples
-
--setcookie rebar3-examples_cookie
-
-+K true
-+A30

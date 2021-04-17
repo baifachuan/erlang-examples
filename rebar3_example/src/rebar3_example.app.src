@@ -1,8 +1,8 @@
-{application, rebar3-examples,
+{application, rebar3_example,
  [{description, "An OTP application"},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, {rebar3-examples_app, []}},
+  {mod, {rebar3_example_app, []}},
   {applications,
    [kernel,
     stdlib

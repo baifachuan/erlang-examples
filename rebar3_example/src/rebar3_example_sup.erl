@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc rebar3-examples top level supervisor.
+%% @doc rebar3_example top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(rebar3-examples_sup).
+-module(rebar3_example_sup).
 
 -behaviour(supervisor).
 

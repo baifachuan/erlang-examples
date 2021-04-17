@@ -1,4 +1,4 @@
-rebar3-examples
+rebar3_example
 =====
 
 An OTP application

@@ -1,16 +1,17 @@
 %%%-------------------------------------------------------------------
-%% @doc rebar3-examples public API
+%% @doc rebar3_example public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(rebar3-examples_app).
+-module(rebar3_example_app).
 
 -behaviour(application).
 
 -export([start/2, stop/1]).
 
 start(_StartType, _StartArgs) ->
-    rebar3-examples_sup:start_link().
+    db_manager:start(),
+    rebar3_example_sup:start_link().
 
 stop(_State) ->
     ok.
